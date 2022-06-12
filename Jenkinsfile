@@ -44,7 +44,7 @@ pipeline {
                     gv.deployApp()
                 }
                 withCredentials([
-                    usernamePassword(credentials: 'server-credentials', usernameVariable: USER, passwordVariable: PWD)
+                    usernamePassword(credentialsId: 'server-credentials', usernameVariable: 'USER', passwordVariable: 'PWD')
                 ]) {
                     sh "some script ${USER} ${PWD}"
                 }
