@@ -25,4 +25,4 @@ At Brach Sources, add `Git` and then put repo url and add the github credential 
 
 Result after build
 
-![pipe result](https://github.com/Thanasornsawan/Jenkins_pipeline/tree/main/photos/result.JPG?raw=true)
+![pipe result](https://github.com/Thanasornsawan/Jenkins_pipeline/blob/main/photos/result.JPG?raw=true)
